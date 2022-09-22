@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+}
+
+.container {
+  max-width: 80vw;
+  background-color: rgb(208, 227, 233);
+  min-height: 100vh;
+  padding: 20px;
+  padding-left: 30px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description {
+    width: 70%;
+    margin-top: 20px;
+}
+
+.profile-picture {
+    width: 30%;
+}
+
+.name {
+    text-align: center;
+    text-transform: uppercase;
+    transform: translate(-20%);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.publications {
+    margin: 10px 0;
+}
+
+.pubs {
+    margin-bottom: 10px;
+}
+
+.unrefered {
+    margin-top: 20px;
+}
