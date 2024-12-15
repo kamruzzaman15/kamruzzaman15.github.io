@@ -3,10 +3,10 @@
 title: Zaman
 
 # Name pronunciation (optional)
-#name_pronunciation: Mohammed Kamruzzaman
+#name_pronunciation: Mahammed Kamruzzaman
 
 # Full name (for SEO)
-first_name: Mohammed
+first_name: Mahammed
 last_name: Kamruzzaman
 
 # Status emoji
@@ -150,4 +150,6 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a third-year Ph.D. student in Computer Science and Engineering at the University of South Florida, focusing on identifying and mitigating biases in large language models (LLMs). My research explores different types of socila biases, brand bias and techniques to promote fairness in AI systems.
+
+I am passionate about developing culturally aware AI tools and improving LLMs for cross-cultural applications. Let’s connect to discuss AI ethics, bias mitigation, or potential collaborations!
