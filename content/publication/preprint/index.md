@@ -34,12 +34,12 @@ links:
   url: https://aclanthology.org/2024.emnlp-main.707/
 url_pdf: https://aclanthology.org/2024.emnlp-main.707.pdf
 url_code: 'https://github.com/Bias-Lab/llm-brand-bias'
-#url_dataset: '#'
-#url_poster: '#'
-#url_project: ''
+url_dataset: ''
+url_poster: ''
+url_project: ''
 url_slides: ''
-#url_source: '#'
-#url_video: '#'
+url_source: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
