@@ -31,8 +31,8 @@ featured: true
 
 links:
 - name: Custom Link
-  url: https://aclanthology.org/2024.emnlp-main.707/
-url_pdf: https://aclanthology.org/2024.emnlp-main.707.pdf
+  url: 'https://aclanthology.org/2024.emnlp-main.707/'
+url_pdf: 'https://aclanthology.org/2024.emnlp-main.707.pdf'
 url_code: 'https://github.com/Bias-Lab/llm-brand-bias'
 url_dataset: ''
 url_poster: ''
