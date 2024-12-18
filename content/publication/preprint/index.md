@@ -3,7 +3,7 @@ title: "“Global is Good, Local is Bad?”: Understanding Brand Bias in LLMs"
 authors:
 - Mahammed Kamruzzaman
 - Hieu Minh Nguyen
--Gene Kim
+- Gene Kim
 date: "2019-04-07T00:00:00Z"
 doi: ""
 
