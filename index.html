@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PhD Portfolio | NLP & Responsible AI</title>
+  <meta name="description" content="Portfolio of an NLP PhD student: research, publications, projects, and contact." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="dot"></span>
+        <span>Your Name</span>
+      </a>
+
+      <nav class="menu" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#service">Service</a>
+        <a href="#contact">Contact</a>
+        <button id="themeToggle" class="btn small ghost" type="button" aria-label="Toggle theme">Theme</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="top" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="kicker">5th-year PhD Student · Computer Science & Engineering · NLP</p>
+          <h1>Building reliable NLP systems and auditing bias in large language models.</h1>
+          <p class="lead">
+            I study social & cultural biases in LLMs / MLLMs, persona-driven evaluations, and methods to improve reliability in real-world applications.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn" href="#publications">View Publications</a>
+            <a class="btn ghost" href="#projects">See Projects</a>
+            <a class="btn ghost" href="assets/CV.pdf" target="_blank" rel="noopener">Download CV</a>
+          </div>
+
+          <div class="meta">
+            <span>📍 Tampa, FL</span>
+            <span>·</span>
+            <span>✉️ your.email@university.edu</span>
+            <span>·</span>
+            <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
+            <span>·</span>
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+            <span>·</span>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+
+          <div class="pill-row" aria-label="Research tags">
+            <span class="pill">LLM Bias</span>
+            <span class="pill">Persona Evaluation</span>
+            <span class="pill">Multimodal NLP</span>
+            <span class="pill">Responsible AI</span>
+            <span class="pill">RAG & Fine-tuning</span>
+          </div>
+        </div>
+
+        <aside class="card profile">
+          <div class="profile-top">
+            <div class="avatar" aria-hidden="true">
+              <!-- Optional: replace with <img src="assets/img/headshot.jpg" alt="Your Name headshot"> -->
+              <span>YN</span>
+            </div>
+            <div>
+              <h2 class="h3">Your Name</h2>
+              <p class="muted">PhD Candidate, CSE</p>
+              <p class="muted">Advisor: Prof. Gene Louis Kim</p>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="facts">
+            <div><span class="label">Affiliation</span><span class="value">University / Lab</span></div>
+            <div><span class="label">Interests</span><span class="value">Bias & fairness, cultural NLP, evaluation</span></div>
+            <div><span class="label">Tooling</span><span class="value">PyTorch, HF Transformers, RAG, LoRA/QLoRA</span></div>
+          </div>
+
+          <div class="mini-actions">
+            <a class="btn small" href="#contact">Contact</a>
+            <a class="btn small ghost" href="#about">More</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <div class="two-col">
+          <div class="card">
+            <p>
+              I am a 5th-year PhD student in Computer Science & Engineering. My research focuses on how identity cues (e.g., nationality, race, gender)
+              influence model behavior—especially for subjective judgments like emotion attribution, politeness/offensiveness, and cultural norm interpretation.
+            </p>
+            <p>
+              I build evaluation datasets and pipelines, run large-scale experiments across LLMs / multimodal models, and design interventions
+              that improve reliability while preserving core capabilities.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3 class="h4">Technical strengths</h3>
+            <ul class="clean">
+              <li><strong>Languages:</strong> Python, C/C++, MATLAB</li>
+              <li><strong>ML/NLP:</strong> PyTorch, TensorFlow, HuggingFace Transformers</li>
+              <li><strong>LLM tooling:</strong> RAG, PEFT, LoRA/QLoRA, tokenizer analysis</li>
+              <li><strong>Ops:</strong> Git, Docker, Weights & Biases</li>
+            </ul>
+            <p class="muted small">
+              Tip: Put your most “searchable” keywords here (recruiters do keyword scans).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Selected Publications</h2>
+          <div class="search">
+            <label class="sr-only" for="pubSearch">Search publications</label>
+            <input id="pubSearch" type="search" placeholder="Search by title, venue, keyword…" />
+          </div>
+        </div>
+
+        <div id="pubList" class="stack">
+          <!-- Example items (replace links with your own) -->
+          <article class="pub card" data-tags="persona nationality emotion llm">
+            <div class="pub-top">
+              <h3 class="h4">Exploring Changes in Nation Perception with Nationality-Assigned Personas in LLMs</h3>
+              <span class="badge">EMNLP 2025</span>
+            </div>
+            <p class="muted">Your Name, Gene Louis Kim</p>
+            <div class="row">
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Paper</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Code</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">BibTeX</a>
+            </div>
+          </article>
+
+          <article class="pub card" data-tags="multimodal bias emotion stereotyping mllm">
+            <div class="pub-top">
+              <h3 class="h4">Seeing Race, Feeling Bias: Emotion Stereotyping in Multimodal Language Models</h3>
+              <span class="badge">Findings EMNLP 2025</span>
+            </div>
+            <p class="muted">Your Name, coauthors…</p>
+            <div class="row">
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Paper</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Dataset</a>
+            </div>
+          </article>
+
+          <article class="pub card" data-tags="hiring fairness name age llm">
+            <div class="pub-top">
+              <h3 class="h4">The Impact of Name Age Perception on Job Recommendations in LLMs</h3>
+              <span class="badge">Findings ACL 2025</span>
+            </div>
+            <p class="muted">Your Name, Gene Louis Kim</p>
+            <div class="row">
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Paper</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+
+          <p class="muted small">
+            Want an auto-generated publications list? You can later replace this section with a script that reads your Google Scholar export or a BibTeX file.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+
+        <div class="grid3">
+          <article class="card">
+            <h3 class="h4">Persona-driven evaluation toolkit</h3>
+            <p class="muted">
+              A reproducible pipeline for testing identity cues (persona prompts) across multiple LLMs with standardized metrics and reporting.
+            </p>
+            <ul class="clean small">
+              <li>Prompts + experiment configs</li>
+              <li>Accuracy / calibration / agreement</li>
+              <li>Bootstrap CIs + plots</li>
+            </ul>
+            <div class="row">
+              <a class="btn small" href="#" target="_blank" rel="noopener">Repo</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Demo</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3 class="h4">Bias audits for subjective judgments</h3>
+            <p class="muted">
+              Studies of emotion attribution, politeness/offensiveness, and cultural norm interpretation in LLMs/MLLMs under demographic cues.
+            </p>
+            <div class="row">
+              <a class="btn small" href="#" target="_blank" rel="noopener">Writeup</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Data</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3 class="h4">Efficient evaluation & ensembling</h3>
+            <p class="muted">
+              Resource-aware evaluations and baselines for NLP tasks, including feature-based methods and ensembling strategies.
+            </p>
+            <div class="row">
+              <a class="btn small" href="#" target="_blank" rel="noopener">Paper</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEACHING -->
+    <section id="teaching" class="section alt">
+      <div class="container">
+        <h2>Teaching</h2>
+        <div class="card">
+          <ul class="clean">
+            <li><strong>Graduate Teaching Assistant</strong> — Human-Computer Interaction, Operating Systems (2022–2024)</li>
+            <li><strong>Graduate Research Assistant</strong> — Bias in LLMs/VLMs; dataset design; evaluation pipelines (2023–present)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE -->
+    <section id="service" class="section">
+      <div class="container">
+        <h2>Service & Awards</h2>
+        <div class="two-col">
+          <div class="card">
+            <h3 class="h4">Awards</h3>
+            <ul class="clean">
+              <li>Research & Publication Award (Top 3 university-wide)</li>
+              <li>Spirit of Innovation Award</li>
+              <li>Travel Scholarship</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3 class="h4">Press</h3>
+            <ul class="clean">
+              <li>Interview / coverage (add links)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="card">
+          <p class="muted">Best way to reach me: email. I’m also open to research collaborations and internships.</p>
+
+          <div class="contact-grid">
+            <a class="contact-item" href="mailto:your.email@university.edu">
+              <span class="contact-k">Email</span>
+              <span class="contact-v">your.email@university.edu</span>
+            </a>
+            <a class="contact-item" href="https://github.com/" target="_blank" rel="noopener">
+              <span class="contact-k">GitHub</span>
+              <span class="contact-v">github.com/yourhandle</span>
+            </a>
+            <a class="contact-item" href="https://scholar.google.com/" target="_blank" rel="noopener">
+              <span class="contact-k">Google Scholar</span>
+              <span class="contact-v">Scholar profile</span>
+            </a>
+            <a class="contact-item" href="https://www.linkedin.com/" target="_blank" rel="noopener">
+              <span class="contact-k">LinkedIn</span>
+              <span class="contact-v">linkedin.com/in/yourhandle</span>
+            </a>
+          </div>
+
+          <p class="muted small">
+            Footer idea: include a short “Research statement” line + last updated date.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="muted small">© <span id="year"></span> Your Name · Built for GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
