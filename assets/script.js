@@ -1,4 +1,4 @@
-// Theme toggle (dark/light) + publication search + footer year
+// Theme toggle (dark/light) + publication search + footer year + last updated
 
 (function () {
   const root = document.documentElement;
@@ -34,4 +34,8 @@
   // Footer year
   const y = document.getElementById("year");
   if (y) y.textContent = new Date().getFullYear();
+
+  // Last updated (client-side)
+  const lu = document.getElementById("lastUpdated");
+  if (lu) lu.textContent = new Date().toLocaleDateString();
 })();

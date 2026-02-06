@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>PhD Portfolio | NLP & Responsible AI</title>
-  <meta name="description" content="Portfolio of an NLP PhD student: research, publications, projects, and contact." />
+  <title>Mahammed Kamruzzaman | NLP PhD Portfolio</title>
+  <meta name="description" content="Mahammed Kamruzzaman — PhD Candidate in CSE (NLP/Responsible AI). Research, publications, projects, and contact." />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 
@@ -15,15 +15,15 @@
     <div class="container nav">
       <a class="brand" href="#top" aria-label="Home">
         <span class="dot"></span>
-        <span>Your Name</span>
+        <span>Kamruzzaman</span>
       </a>
 
       <nav class="menu" aria-label="Primary">
         <a href="#about">About</a>
         <a href="#publications">Publications</a>
         <a href="#projects">Projects</a>
-        <a href="#teaching">Teaching</a>
-        <a href="#service">Service</a>
+        <a href="#experience">Experience</a>
+        <a href="#awards">Awards</a>
         <a href="#contact">Contact</a>
         <button id="themeToggle" class="btn small ghost" type="button" aria-label="Toggle theme">Theme</button>
       </nav>
@@ -31,14 +31,18 @@
   </header>
 
   <main id="main">
-    <!-- HERO -->
-    <section id="top" class="hero">
+    <!-- HERO (Name-first) -->
+    <section id="top" class="hero hero-name-first">
       <div class="container hero-grid">
         <div>
-          <p class="kicker">5th-year PhD Student · Computer Science & Engineering · NLP</p>
-          <h1>Building reliable NLP systems and auditing bias in large language models.</h1>
+          <p class="kicker">PhD Candidate · Computer Science & Engineering · NLP · University of South Florida</p>
+
+          <h1 class="name-title">
+            Mahammed <span class="last">Kamruzzaman</span>
+          </h1>
+
           <p class="lead">
-            I study social & cultural biases in LLMs / MLLMs, persona-driven evaluations, and methods to improve reliability in real-world applications.
+            I study social, cultural, and brand biases in LLMs / VLMs and build evaluation datasets and pipelines for reliable, equitable AI.
           </p>
 
           <div class="cta-row">
@@ -48,9 +52,9 @@
           </div>
 
           <div class="meta">
-            <span>📍 Tampa, FL</span>
+            <span>📍 Tampa, FL, USA</span>
             <span>·</span>
-            <span>✉️ your.email@university.edu</span>
+            <span>✉️ kamruzzaman1@usf.edu</span>
             <span>·</span>
             <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
             <span>·</span>
@@ -60,22 +64,22 @@
           </div>
 
           <div class="pill-row" aria-label="Research tags">
-            <span class="pill">LLM Bias</span>
+            <span class="pill">LLM/VLM Bias</span>
             <span class="pill">Persona Evaluation</span>
-            <span class="pill">Multimodal NLP</span>
+            <span class="pill">Cultural NLP</span>
             <span class="pill">Responsible AI</span>
-            <span class="pill">RAG & Fine-tuning</span>
+            <span class="pill">RAG · LoRA/QLoRA</span>
           </div>
         </div>
 
         <aside class="card profile">
           <div class="profile-top">
-            <div class="avatar" aria-hidden="true">
-              <!-- Optional: replace with <img src="assets/img/headshot.jpg" alt="Your Name headshot"> -->
-              <span>YN</span>
+            <div class="avatar">
+              <!-- Optional: replace with an <img> -->
+              <span>MK</span>
             </div>
             <div>
-              <h2 class="h3">Your Name</h2>
+              <h2 class="h3">Mahammed Kamruzzaman</h2>
               <p class="muted">PhD Candidate, CSE</p>
               <p class="muted">Advisor: Prof. Gene Louis Kim</p>
             </div>
@@ -84,45 +88,62 @@
           <hr />
 
           <div class="facts">
-            <div><span class="label">Affiliation</span><span class="value">University / Lab</span></div>
-            <div><span class="label">Interests</span><span class="value">Bias & fairness, cultural NLP, evaluation</span></div>
-            <div><span class="label">Tooling</span><span class="value">PyTorch, HF Transformers, RAG, LoRA/QLoRA</span></div>
+            <div><span class="label">Affiliation</span><span class="value">University of South Florida</span></div>
+            <div><span class="label">Position</span><span class="value">Graduate Research Assistant</span></div>
+            <div><span class="label">Research</span><span class="value">Bias & evaluation in LLMs/VLMs</span></div>
+            <div><span class="label">Tooling</span><span class="value">PyTorch · HF · RAG · PEFT</span></div>
           </div>
 
           <div class="mini-actions">
             <a class="btn small" href="#contact">Contact</a>
-            <a class="btn small ghost" href="#about">More</a>
+            <a class="btn small ghost" href="#about">About</a>
           </div>
         </aside>
       </div>
     </section>
 
-    <!-- ABOUT -->
+    <!-- ABOUT (quick facts left, narrative right) -->
     <section id="about" class="section">
       <div class="container">
-        <h2>About</h2>
-        <div class="two-col">
-          <div class="card">
-            <p>
-              I am a 5th-year PhD student in Computer Science & Engineering. My research focuses on how identity cues (e.g., nationality, race, gender)
-              influence model behavior—especially for subjective judgments like emotion attribution, politeness/offensiveness, and cultural norm interpretation.
-            </p>
-            <p>
-              I build evaluation datasets and pipelines, run large-scale experiments across LLMs / multimodal models, and design interventions
-              that improve reliability while preserving core capabilities.
-            </p>
-          </div>
+        <div class="section-head">
+          <h2>About</h2>
+        </div>
 
+        <div class="two-col about-swap">
+          <!-- LEFT: Quick facts -->
           <div class="card">
+            <h3 class="h4">Quick facts</h3>
+            <ul class="clean">
+              <li><strong>PhD:</strong> Computer Science & Engineering, University of South Florida (Aug 2022–Present)</li>
+              <li><strong>Concurrent MSc:</strong> Computer Science, USF (2022–2024), GPA 4.00</li>
+              <li><strong>BSc:</strong> Electrical & Electronic Engineering, RUET (2016–2021), GPA 3.72</li>
+              <li><strong>Roles:</strong> Graduate Research Assistant (May 2023–Present); Graduate Teaching Assistant (Aug 2022–May 2024)</li>
+            </ul>
+
+            <hr />
+
             <h3 class="h4">Technical strengths</h3>
             <ul class="clean">
-              <li><strong>Languages:</strong> Python, C/C++, MATLAB</li>
+              <li><strong>Languages:</strong> Python, C/C++, Matlab, Assembly</li>
               <li><strong>ML/NLP:</strong> PyTorch, TensorFlow, HuggingFace Transformers</li>
-              <li><strong>LLM tooling:</strong> RAG, PEFT, LoRA/QLoRA, tokenizer analysis</li>
-              <li><strong>Ops:</strong> Git, Docker, Weights & Biases</li>
+              <li><strong>LLM tooling:</strong> RAG, PEFT, LoRA/QLoRA, evaluation pipelines</li>
+              <li><strong>Ops:</strong> Git, Docker, W&amp;B</li>
             </ul>
+          </div>
+
+          <!-- RIGHT: Narrative -->
+          <div class="card">
+            <p>
+              I am a PhD candidate in Computer Science &amp; Engineering at the University of South Florida.
+              My work focuses on understanding how identity cues (e.g., nationality, gender, race, age) influence model behavior,
+              especially for subjective judgments like emotion attribution, safety/toxicity, and cultural norm interpretation.
+            </p>
+            <p>
+              I design datasets and evaluation protocols, run large-scale experiments across LLMs and multimodal models,
+              and work on reliable assessment methods that help distinguish true capability from bias or spurious patterns.
+            </p>
             <p class="muted small">
-              Tip: Put your most “searchable” keywords here (recruiters do keyword scans).
+              Tip: Replace this paragraph with your 3–4 sentence “research statement” you would use in applications.
             </p>
           </div>
         </div>
@@ -141,13 +162,13 @@
         </div>
 
         <div id="pubList" class="stack">
-          <!-- Example items (replace links with your own) -->
-          <article class="pub card" data-tags="persona nationality emotion llm">
+          <!-- Replace these with your actual papers + links -->
+          <article class="pub card" data-tags="bias llm fairness">
             <div class="pub-top">
-              <h3 class="h4">Exploring Changes in Nation Perception with Nationality-Assigned Personas in LLMs</h3>
-              <span class="badge">EMNLP 2025</span>
+              <h3 class="h4">Investigating subtler biases in LLMs: ageism, beauty, institutional, and nationality bias</h3>
+              <span class="badge">Findings ACL 2024</span>
             </div>
-            <p class="muted">Your Name, Gene Louis Kim</p>
+            <p class="muted">Mahammed Kamruzzaman, …, Gene Louis Kim</p>
             <div class="row">
               <a class="btn small ghost" href="#" target="_blank" rel="noopener">Paper</a>
               <a class="btn small ghost" href="#" target="_blank" rel="noopener">Code</a>
@@ -155,33 +176,41 @@
             </div>
           </article>
 
-          <article class="pub card" data-tags="multimodal bias emotion stereotyping mllm">
+          <article class="pub card" data-tags="brand bias llm">
             <div class="pub-top">
-              <h3 class="h4">Seeing Race, Feeling Bias: Emotion Stereotyping in Multimodal Language Models</h3>
-              <span class="badge">Findings EMNLP 2025</span>
+              <h3 class="h4">Global is Good, Local is Bad?: Understanding Brand Bias in LLMs</h3>
+              <span class="badge">Preprint / Under review</span>
             </div>
-            <p class="muted">Your Name, coauthors…</p>
-            <div class="row">
-              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Paper</a>
-              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Dataset</a>
-            </div>
-          </article>
-
-          <article class="pub card" data-tags="hiring fairness name age llm">
-            <div class="pub-top">
-              <h3 class="h4">The Impact of Name Age Perception on Job Recommendations in LLMs</h3>
-              <span class="badge">Findings ACL 2025</span>
-            </div>
-            <p class="muted">Your Name, Gene Louis Kim</p>
+            <p class="muted">Mahammed Kamruzzaman, …, Gene Louis Kim</p>
             <div class="row">
               <a class="btn small ghost" href="#" target="_blank" rel="noopener">Paper</a>
               <a class="btn small ghost" href="#" target="_blank" rel="noopener">Code</a>
             </div>
           </article>
 
-          <p class="muted small">
-            Want an auto-generated publications list? You can later replace this section with a script that reads your Google Scholar export or a BibTeX file.
-          </p>
+          <article class="pub card" data-tags="persona nationality perception">
+            <div class="pub-top">
+              <h3 class="h4">Exploring Changes in Nation Perception with Nationality-Assigned Personas in LLMs</h3>
+              <span class="badge">Preprint / Under review</span>
+            </div>
+            <p class="muted">Mahammed Kamruzzaman, Gene Louis Kim</p>
+            <div class="row">
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Paper</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+
+          <article class="pub card" data-tags="prompting bias mitigation system1 system2">
+            <div class="pub-top">
+              <h3 class="h4">Prompting Techniques for Reducing Social Bias in LLMs through System 1 and System 2 Cognitive Processes</h3>
+              <span class="badge">Preprint / Under review</span>
+            </div>
+            <p class="muted">Mahammed Kamruzzaman, Gene Louis Kim</p>
+            <div class="row">
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Paper</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -193,14 +222,14 @@
 
         <div class="grid3">
           <article class="card">
-            <h3 class="h4">Persona-driven evaluation toolkit</h3>
+            <h3 class="h4">Persona-driven evaluation pipeline</h3>
             <p class="muted">
-              A reproducible pipeline for testing identity cues (persona prompts) across multiple LLMs with standardized metrics and reporting.
+              A reproducible pipeline for testing identity cues (persona prompts) across multiple LLMs, with standardized metrics and reporting.
             </p>
             <ul class="clean small">
-              <li>Prompts + experiment configs</li>
-              <li>Accuracy / calibration / agreement</li>
-              <li>Bootstrap CIs + plots</li>
+              <li>Prompt templates + configs</li>
+              <li>Accuracy / agreement / bootstrap CIs</li>
+              <li>Reproducible runs & reporting</li>
             </ul>
             <div class="row">
               <a class="btn small" href="#" target="_blank" rel="noopener">Repo</a>
@@ -211,8 +240,13 @@
           <article class="card">
             <h3 class="h4">Bias audits for subjective judgments</h3>
             <p class="muted">
-              Studies of emotion attribution, politeness/offensiveness, and cultural norm interpretation in LLMs/MLLMs under demographic cues.
+              Studies on emotion attribution, toxicity, and cultural norm interpretation under demographic cues in LLMs/VLMs.
             </p>
+            <ul class="clean small">
+              <li>Dataset design &amp; annotation</li>
+              <li>Cross-model evaluations</li>
+              <li>Analysis &amp; visualization</li>
+            </ul>
             <div class="row">
               <a class="btn small" href="#" target="_blank" rel="noopener">Writeup</a>
               <a class="btn small ghost" href="#" target="_blank" rel="noopener">Data</a>
@@ -220,41 +254,64 @@
           </article>
 
           <article class="card">
-            <h3 class="h4">Efficient evaluation & ensembling</h3>
+            <h3 class="h4">Efficient baselines &amp; ensembling</h3>
             <p class="muted">
-              Resource-aware evaluations and baselines for NLP tasks, including feature-based methods and ensembling strategies.
+              Lightweight baselines and ensembling approaches for evaluation tasks, focusing on robust reporting and reproducibility.
             </p>
+            <ul class="clean small">
+              <li>Strong feature baselines</li>
+              <li>Ensembling &amp; ablations</li>
+              <li>Clear reporting</li>
+            </ul>
             <div class="row">
-              <a class="btn small" href="#" target="_blank" rel="noopener">Paper</a>
-              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Code</a>
+              <a class="btn small" href="#" target="_blank" rel="noopener">Repo</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Notes</a>
             </div>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- TEACHING -->
-    <section id="teaching" class="section alt">
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section alt">
       <div class="container">
-        <h2>Teaching</h2>
-        <div class="card">
-          <ul class="clean">
-            <li><strong>Graduate Teaching Assistant</strong> — Human-Computer Interaction, Operating Systems (2022–2024)</li>
-            <li><strong>Graduate Research Assistant</strong> — Bias in LLMs/VLMs; dataset design; evaluation pipelines (2023–present)</li>
-          </ul>
+        <h2>Experience</h2>
+
+        <div class="stack">
+          <div class="card">
+            <div class="pub-top">
+              <h3 class="h4">Graduate Research Assistant — University of South Florida</h3>
+              <span class="badge">May 2023 – Present</span>
+            </div>
+            <ul class="clean">
+              <li>Bias and fairness evaluation in LLMs/VLMs with persona and identity-cue prompting.</li>
+              <li>Dataset creation, experiment automation, and analysis pipelines.</li>
+              <li>Reproducible evaluations across multiple models and settings.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="pub-top">
+              <h3 class="h4">Graduate Teaching Assistant — University of South Florida</h3>
+              <span class="badge">Aug 2022 – May 2024</span>
+            </div>
+            <ul class="clean">
+              <li>Supported course instruction, grading, and office hours; assisted students on projects and assignments.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- SERVICE -->
-    <section id="service" class="section">
+    <!-- AWARDS -->
+    <section id="awards" class="section">
       <div class="container">
-        <h2>Service & Awards</h2>
+        <h2>Awards & Recognition</h2>
         <div class="two-col">
           <div class="card">
             <h3 class="h4">Awards</h3>
             <ul class="clean">
-              <li>Research & Publication Award (Top 3 university-wide)</li>
+              <li>Research &amp; Publication Award (Top 3, university-wide)</li>
               <li>Spirit of Innovation Award</li>
               <li>Travel Scholarship</li>
             </ul>
@@ -262,7 +319,7 @@
           <div class="card">
             <h3 class="h4">Press</h3>
             <ul class="clean">
-              <li>Interview / coverage (add links)</li>
+              <li>Add links to articles/interviews here (optional)</li>
             </ul>
           </div>
         </div>
@@ -274,12 +331,12 @@
       <div class="container">
         <h2>Contact</h2>
         <div class="card">
-          <p class="muted">Best way to reach me: email. I’m also open to research collaborations and internships.</p>
+          <p class="muted">Best way to reach me: email. I’m open to collaborations and internship opportunities.</p>
 
           <div class="contact-grid">
-            <a class="contact-item" href="mailto:your.email@university.edu">
+            <a class="contact-item" href="mailto:kamruzzaman1@usf.edu">
               <span class="contact-k">Email</span>
-              <span class="contact-v">your.email@university.edu</span>
+              <span class="contact-v">kamruzzaman1@usf.edu</span>
             </a>
             <a class="contact-item" href="https://github.com/" target="_blank" rel="noopener">
               <span class="contact-k">GitHub</span>
@@ -296,7 +353,7 @@
           </div>
 
           <p class="muted small">
-            Footer idea: include a short “Research statement” line + last updated date.
+            Last updated: <span id="lastUpdated"></span>
           </p>
         </div>
       </div>
@@ -305,7 +362,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p class="muted small">© <span id="year"></span> Your Name · Built for GitHub Pages.</p>
+      <p class="muted small">© <span id="year"></span> Mahammed Kamruzzaman · Built for GitHub Pages.</p>
     </div>
   </footer>
 
